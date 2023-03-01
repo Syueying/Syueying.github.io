@@ -13,7 +13,7 @@ pagination:
     after: 3  # The number of links after the current page
 ---
 
-<div class="post" style="display: flex;">
+<!-- <div class="post" style="display: flex;"> -->
 
   <!-- <div class="header-bar">
     <h1>{{ site.blog_name }}</h1>
@@ -21,7 +21,7 @@ pagination:
   </div> -->
 
   {% if site.display_tags %}
-  <div class="tag-list" style="width: 20%">
+  <!-- <div class="tag-list" style="width: 20%"> -->
     <div style="font-size: large; padding-left: 45px;">
       <i class="fas fa-hashtag fa-sm"></i> Tags
     </div>
@@ -37,10 +37,10 @@ pagination:
         {% endunless %} -->
       {% endfor %}
     </ul>
-  </div>
+  <!-- </div> -->
   {% endif %}
 
-  <div style="width: 80%;">
+  <!-- <div style="width: 80%;"> -->
     <ul class="post-list">
       {% for post in paginator.posts %}
   
@@ -110,6 +110,6 @@ pagination:
     </ul>
   
     {% include pagination.html %}
-  </div>
+  <!-- </div> -->
 
 </div>
