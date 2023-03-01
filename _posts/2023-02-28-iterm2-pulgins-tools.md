@@ -4,7 +4,7 @@ title: Good Plugins / Tools can help Boost Productivity on iTerm2
 date: 2023-02-28 
 description: lazygit, navigator, autosuggestions and so on ...
 tags: tech terminal
-coverImage: ../assets/img/2023/02/28/screenshot_autosuggestions.png
+coverImage: ../assets/img/2023/02/28/screenshot_lazygit.png
 ---
 
 This post is written based on the fact that you hava already had iTerm2 and Oh My ZSH installed. 
