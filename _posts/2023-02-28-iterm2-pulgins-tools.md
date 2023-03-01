@@ -1,13 +1,17 @@
 ---
 layout: post
-title: Good Plugins / Tools to Boost Your Productivity on iTerm2
+title: Good Plugins / Tools can help Boost Productivity on iTerm2
 date: 2023-02-28 
 description: lazygit, navigator, autosuggestions and so on ...
 tags: tech terminal
 coverImage: ../assets/img/2023/02/28/screenshot_autosuggestions.png
 ---
 
-This post is written based on the fact that you hava already had iTerm2 and Oh My ZSH installed. And Github icon <img src="/assets/img/github.png" alt="github icon" style="width:17px;height:20px;padding-bottom:3px"> created by Pixel perfect - <a href="https://www.flaticon.com/free-icons/github" title="github icons"> Flaticon</a>
+This post is written based on the fact that you hava already had iTerm2 and Oh My ZSH installed. 
+
+Github icon <img src="/assets/img/github.png" alt="github icon" style="width:17px;height:20px;padding-bottom:3px"> created by Pixel perfect - <a href="https://www.flaticon.com/free-icons/github" title="github icons"> Flaticon</a>
+
+---
 
 1.Highlighting: "provides syntax highlighting for the shell zsh" --- <img src="/assets/img/github.png" alt="github icon" style="width:17px;height:20px;padding-bottom:3px"> <a href="https://github.com/zsh-users/zsh-syntax-highlighting">zsh-syntax-highlighting</a>
 
