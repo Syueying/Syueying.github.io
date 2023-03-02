@@ -16,6 +16,6 @@ nav_order: 2
     </div>
 </div>
 
-{% include figure.html path="assets/img/gallery/g2.jpg" class="img-fluid rounded z-depth-1" %}
+{% include figure.html path="assets/img/gallery/g2.JPG" class="img-fluid rounded z-depth-1" %}
 
 
