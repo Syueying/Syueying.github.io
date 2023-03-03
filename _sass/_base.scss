@@ -349,6 +349,8 @@ footer.sticky-bottom {
   margin-right: 10px;
   text-align: left;
   padding-top: 1rem;
+  padding-right: 10px;
+  min-width: min-content;
 
   ul {
     justify-content: center;
@@ -385,7 +387,9 @@ footer.sticky-bottom {
       color: var(--global-text-color-light);
       font-size: 0.8rem;
       padding-bottom: 0;
-      text-align: right;
+      margin: 5px 5px 5px 0;
+      min-width: max-content;
+      // text-align: right;
     }
     a {
       color: var(--global-text-color);
