@@ -4,8 +4,10 @@
 
 This project is forked from and developed based on [Al-Folio](https://alshedivat.github.io/al-folio)
 
-### Favicon
-Using [smiley-comment-alt](https://www.flaticon.com/free-icon-font/smiley-comment-alt_9291882) from [Flaticon](https://www.flaticon.com/)
+### Commnent plugin
+
+[Valine](https://valine.js.org/en/)
 
 ### CSS
-- Box shadow css -> https://getcssscan.com/css-box-shadow-examples
+- Box shadow css : https://getcssscan.com/css-box-shadow-examples
+- Favicon : using [smiley-comment-alt](https://www.flaticon.com/free-icon-font/smiley-comment-alt_9291882) from [Flaticon](https://www.flaticon.com/)
