@@ -39,10 +39,14 @@ figure, img {
 
 blockquote {
   background: var(--global-bg-color);
-  border-left: 2px solid var(--global-theme-color);
-  margin: 1.5em 10px;
-  padding: 0.5em 10px;
-  font-size: 1.2rem;
+  border-left: 3px solid;
+  border-radius: 0.1rem;
+  margin: 1em 10px;
+  padding: 0.3em 10px;
+  p {
+    color: gray;
+    margin-bottom: 0;
+  }
 }
 
 // Math
@@ -679,8 +683,8 @@ html.transition *:after {
   }
   .post-content{
     blockquote {
-      border-left: 5px solid var(--global-theme-color);
-      padding: 8px;
+      border-left: 2px solid gray;
+      padding: 5px;
     }
   }
 }
