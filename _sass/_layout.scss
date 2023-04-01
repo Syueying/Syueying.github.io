@@ -12,9 +12,8 @@ body {
   }
 }
 
-body.fixed-top-nav {
-  // Add some padding for the nav-bar.
-  padding-top: 56px;
+#content {
+  padding-top: 75px;
 }
 
 body.sticky-bottom-footer {
@@ -24,6 +23,7 @@ body.sticky-bottom-footer {
 
 .container {
   max-width: $max-content-width;
+  padding: 0;
 }
 
 // Profile

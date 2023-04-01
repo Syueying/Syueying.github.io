@@ -46,11 +46,10 @@ rss_icon: true
 # Layout
 # -----------------------------------------------------------------------------
 
-navbar_fixed: true
 footer_fixed: true
 
 # Dimensions
-max_width: 90%
+max_width: 80%
 
 # TODO: add layout settings (single page vs. multi-page)
 
