@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About
+title: Home
 permalink: /
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
@@ -14,9 +14,9 @@ profile:
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
----
 
-你好，Hello，Hola，안녕하세요，こんにちは ... 👋 （总之，非常欢迎
+greetings: "Welcome to my place ... 👋 "
+---
 
 说实话，我不知道做这个博客的目的是什么（我猜你应该想要问），思来想去... 算了，真的想不到有什么目的。
 

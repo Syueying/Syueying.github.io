@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(244, 246, 251);
+}
+
 /*******************************************************************************
  * Styles for the base elements of the theme.
  ******************************************************************************/
@@ -177,15 +181,21 @@ blockquote {
   text-align: center;
   width: 100%;
   z-index: 999; 
-  height: 7%;
-  padding: 0 10% 0 10%;
+  min-height: min-content;
+  max-height: min-content;
+  padding: 8px 10% 8px 10%;
 }
 
 .nav-brand {
   font-size: 2.3rem;
-  font-weight: 400;
-  font-family: 'Times New Roman', Times, serif;
+  font-weight: 200;
+  // font-family: 'Indie Flower';
+  // font-family: 'Rock Salt';
+  font-family: 'Fuzzy Bubbles';
   color: var(--global-text-color);
+  top: 1;
+  bottom: 1;
+  margin: auto;
 }
 
 .nav-brand:hover {
@@ -257,7 +267,8 @@ nav li {
 nav a {
   color: var(--global-text-color);
   text-decoration: none;
-  font-size: 1.4rem;
+  font-size: 1.7rem;
+  font-family: 'Fuzzy Bubbles';
   opacity: 0;
   transition: opacity 150ms ease-in-out;
 }
@@ -869,4 +880,35 @@ progress::-moz-progress-bar {
   width: 0%;
   display: block;
   height: inherit;
+}
+
+// Typing style
+
+.wrapper {
+  // height: 10vh;
+  /*This part is important for centering*/
+  display: grid;
+  place-items: center;
+}
+
+.typing-style {
+  width: 18ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-size: 1.7rem;
+  font-family: Fuzzy Bubbles;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
 }

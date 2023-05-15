@@ -11,6 +11,18 @@ layout: default
           <p class="desc">{{ page.subtitle }}</p>
         </header>
 
+        {% if page.greetings -%}
+        <div style="height: 30px"></div>
+
+        <div class="wrapper">
+            <div class="typing-style">
+              {{page.greetings}}
+            </div>
+        </div>
+
+        <div style="height: 30px"></div>
+        {%- endif %}
+
         <article>
           {% if page.profile -%}
           <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
