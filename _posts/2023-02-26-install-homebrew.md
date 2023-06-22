@@ -2,7 +2,7 @@
 layout: post
 title: An Alternative Way Installing Homebrew - Using Mirror
 date: 2023-02-28 
-description: Alternative solution when official command line for installing homebrew failed
+# description: Alternative solution when official command line for installing homebrew failed
 tags: tech terminal macOS
 # coverImage: ../assets/img/2023/02/28/screenshot_lazygit.png
 ---

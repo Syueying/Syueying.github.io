@@ -49,7 +49,7 @@ rss_icon: true
 footer_fixed: true
 
 # Dimensions
-max_width: 80%
+max_width: 90%
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -215,11 +215,11 @@ jekyll-archives:
     tag: archive-tag
     category: archive-category
   permalinks: # TODO
-    year: '/blog/:year/'
-    tag: '/blog/tag/:name/'
-    category: '/blog/category/:name/'
-
-display_tags: ['tech', 'terminal', 'macOS', 'C/C++', 'html', 'css', 'js', 'life', 'travel', 'pcy', 'lcl', 'coral', 'zj', 'wxx', 'family', '630', '420'] # this tags will be dispalyed on the front page of your blog
+    year: '/work/:year/'
+    tag: '/work/tag/:name/'
+    category: '/work/category/:name/'
+# display_tags: ['tech', 'terminal', 'macOS', 'C/C++', 'html', 'css', 'js', 'life', 'travel', 'pcy', 'lcl', 'coral', 'zj', 'wxx', 'family', '630', '420'] # this tags will be dispalyed on the front page of your blog
+display_tags: ['tech', 'terminal', 'macOS', 'C/C++', 'html', 'css', 'js']
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar

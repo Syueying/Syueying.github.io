@@ -2,7 +2,7 @@
 layout: post
 title: Fake Unsplash Icon
 date: 2023-04-24
-description: Fake Unsplash icon is drown using HTML/CSS/JS, functionality of switching themes is also provided.
+# description: Fake Unsplash icon is drown using HTML/CSS/JS, functionality of switching themes is also provided.
 tags: tech html css js
 # coverImage: ../assets/img/2023/04/24/fake-unsplash-icon-cover.png
 ---

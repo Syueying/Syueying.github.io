@@ -29,6 +29,7 @@ hr {
 }
 
 table {
+  min-width: max-content;
 
   td,
   th {
@@ -175,7 +176,7 @@ blockquote {
  ******************************************************************************/
  
 .nav-header{
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
   background: var(--global-bg-color);
   position: fixed;
   text-align: center;
@@ -183,7 +184,7 @@ blockquote {
   z-index: 999; 
   min-height: min-content;
   max-height: min-content;
-  padding: 8px 10% 8px 10%;
+  padding: 8px 6% 8px 5%;
 }
 
 .nav-brand {
@@ -196,6 +197,7 @@ blockquote {
   top: 1;
   bottom: 1;
   margin: auto;
+  margin-left: 10px;
 }
 
 .nav-brand:hover {
@@ -465,20 +467,22 @@ footer.sticky-bottom {
   }
 }
 
-.post-list {
+.work-post-list {
   margin: 0;
   margin-bottom: 40px;
   padding: 0;
 
   li {
-    border-bottom: 0.2px solid var(--global-divider-color);
+    background-color: white;
+    border-radius: 0.7rem;
+    width: 100%;
     list-style: none;
     padding: 0.7rem 1rem 0 1rem;
     margin: 5px;
 
     &:hover {
       border-radius: 0.5rem;
-      box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+      // box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
     }
 
     .post-meta {
@@ -493,15 +497,11 @@ footer.sticky-bottom {
       padding-bottom: 0;
       margin: 5px 5px 5px 0;
       min-width: max-content;
-      // text-align: right;
     }
 
     a {
       color: var(--global-text-color);
       text-decoration: none;
-      // &:hover {
-      //   color: var(--global-theme-color);
-      // }
     }
   }
 }
@@ -795,15 +795,13 @@ html.transition *:after {
 }
 
 // Extra Markdown style (post Customization)
-.post {
+.work-list {
 
-  .post-meta {
-    color: var(--global-text-color-light);
-    font-size: 0.875rem;
-    margin-bottom: 0;
-  }
+  border-radius: 0.7rem;
+  // box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin: 10px;
 
-  .post-tags {
+  .work-post-tags {
     color: var(--global-text-color-light);
     font-size: 0.875rem;
     // padding-top: 0.25rem;
@@ -819,12 +817,41 @@ html.transition *:after {
     }
   }
 
+}
+
+.post {
+
+  background-color: white;
+  padding: 35px;
+  border-radius: 0.7rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin: 10px;
+
+  .post-meta {
+    color: var(--global-text-color-light);
+    font-size: 0.875rem;
+    margin-bottom: 0;
+  }
+
   .post-content {
+    padding-top: 10px;
+
     blockquote {
       border-left: 2px solid gray;
       padding: 5px;
     }
   }
+}
+
+.post-header {
+  padding: 3px;
+  border-bottom: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: lightgray;
+}
+
+.post-title {
+  text-align: center;
 }
 
 progress {
