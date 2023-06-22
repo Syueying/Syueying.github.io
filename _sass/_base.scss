@@ -892,12 +892,12 @@ progress::-moz-progress-bar {
 }
 
 .typing-style {
-  width: 18ch;
+  width: 12ch;
   animation: typing 2s steps(22), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
-  font-size: 1.7rem;
+  font-size: 2.0rem;
   font-family: Fuzzy Bubbles;
 }
 
@@ -911,4 +911,26 @@ progress::-moz-progress-bar {
   50% {
     border-color: transparent
   }
+}
+
+// Theme Toggle Switch
+
+.toggle-container {
+  width: 10%;
+  height: 10%;
+}
+
+.theme-toggle-animation {
+  width: 100%;
+  height: 100%;
+}
+
+// About
+
+.about-content {
+  height: max-content;
+  display: grid;
+  place-items: center;
+  font-weight: bold;
+  font-size: larger;
 }

@@ -1,23 +1,29 @@
 ---
 layout: about
-title: Home
+title: About
 permalink: /
-# subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.JPG
   image_circular: false # crops the image to make it circular
-  # address: 
-  #   <p align=right>Chengdu, Sichuan 2022.6</p>
 
-news: false  # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false  # includes social icons at the bottom of the page
-
-greetings: "Welcome to my place ... 👋 "
+greetings: "Warm Welcome 🎉 "
 ---
 
+An ex-SDE @ Amazon. Currently between jobs ... 
+
+（一个不算太靠谱的程序员 💻
+
+When I'm available, I do a little bit of cooking 👩🏼‍🍳, some reading 📖, various kind of execises 🏃, a lot of city walks 🚶 ...
+
+（除了正事儿，啥都会尝试一些
+
+Gonna share some ideas from work and life 
+
+（分享工作和生活碎片
+
+<!-- 
 说实话，我不知道做这个博客的目的是什么（我猜你应该想要问），思来想去... 算了，真的想不到有什么目的。
 
 爱好？非常多，可以说我不知道的我都想去尝试（高空项目、黑黢黢的项目除外）
@@ -30,4 +36,4 @@ greetings: "Welcome to my place ... 👋 "
 
 爱看什么？热血向（灌篮高手算一个，但我反复观看前半段，至今没有看完整部），治愈向（魔卡少女樱算一个，长大后甚至发现很多隐藏剧本，常看常新啊～～）... 
 
-应该没什么需要介绍的了，那么， "In case I don't see you... good afternoon, good evening, and good night"
+应该没什么需要介绍的了，那么， "In case I don't see you... good afternoon, good evening, and good night" -->

@@ -44,11 +44,11 @@
           {%- endif -%}
         </a>
       </li>
-      {% if site.blog_nav_title %}
+      {% if site.work_nav_title %}
       <!-- Blog -->
-      <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
-        <a href="{{ '/blog/' | relative_url }}">{{ site.blog_nav_title }}
-          {%- if page.url contains 'blog' -%}
+      <li class="nav-item {% if page.url contains 'work' %}active{% endif %}">
+        <a href="{{ '/work/' | relative_url }}">{{ site.work_nav_title }}
+          {%- if page.url contains 'work' -%}
           <span class="sr-only">(current)</span>
           {%- endif -%}
         </a>
@@ -67,16 +67,11 @@
         </a>
       </li>
       {%- endif -%}
-      {% endfor -%}
       {%- if site.enable_darkmode %}
       <!-- Toogle theme mode -->
-      <li class="toggle-container">
-        <button id="light-toggle" title="Change theme">
-          <i class="fas fa-moon"></i>
-          <i class="fas fa-sun"></i>
-        </button>
-      </li>
+        {% include theme_switch.html %}
       {%- endif %}
+      {% endfor -%}
     </ul>
   </nav>
   <label id="nav-toggle-label" for="nav-toggle" class="nav-toggle-label">

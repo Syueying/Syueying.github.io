@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 title: 🐶
 permalink: /gou/
@@ -12,4 +12,4 @@ nav_order: 2
 ###### 05/30 
 
 <video src="../../assets/video/2023/05/dancing_with_a_stranger.MOV" width="100%" preload controls>
-</video>
+</video> -->
