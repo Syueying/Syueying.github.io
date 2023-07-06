@@ -15,30 +15,6 @@ pagination:
 
 <div class="work-list" style="display: flex;">
 
-  <!-- <div class="header-bar">
-    <h1>{{ site.blog_name }}</h1>
-    <h2>{{ site.blog_description }}</h2>
-  </div> -->
-
-  <!-- {% if site.display_tags %}
-  <div class="tag-list" style="width: 20%">
-    <div style="font-size: large;">
-      <i class="fas fa-hashtag fa-sm"></i> Tags
-    <ul>
-      {% for tag in site.display_tags %}
-        <li>
-          <i class="fas fa-hashtag fa-sm"></i> 
-          <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}">{{ tag }}</a>
-        </li>
-        {% unless forloop.last %}
-          <p>&bull;</p>
-        {% endunless %}
-      {% endfor %}
-    </ul>
-  </div>
-  </div>
-  {% endif %} -->
-
   <div style="width: 98%;">
     <ul class="work-post-list">
       {% for post in paginator.posts %}
@@ -95,14 +71,6 @@ pagination:
               {% endif %}
           </div>
         {% endif %}
-
-        <!-- <p class="post-meta">
-          {{ read_time }} min read &nbsp; &middot; &nbsp;
-          {{ post.date | date: '%B %-d, %Y' }}
-          {%- if post.external_source %}
-          &nbsp; &middot; &nbsp; {{ post.external_source }}
-          {%- endif %}
-        </p> -->
 
         {% if post.coverImage != blank %}
           <div style="margin-bottom: 10px;">
