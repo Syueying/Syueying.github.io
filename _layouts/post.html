@@ -18,8 +18,8 @@ layout: default
 
   <header class="post-header">
     <h3 class="post-title">{{ page.title }}</h3>
-    <div style="display: flex">
-      <div style="margin-right: 20px"class="post-meta">
+    <div style="text-align: center;">
+      <div class="post-meta">
         {{ page.date | date: "%B %-d, %Y" }}{%- if page.author -%} • {{ page.author }}{%- endif -%}{%- if page.meta -%} • {{ page.meta }}{%- endif -%}
       </div>
       <!-- <div class="post-tags" style="width: 500px; display: flex">
