@@ -16,10 +16,8 @@ pagination:
 <div class="work-list" style="display: flex;">
 
   <div style="width: 98%;">
-    <h5>{{paginator}}</h5>>
     <ul class="work-post-list">
       {% for post in paginator.posts %}
-        <h5>{{ post.title }}</h5>
       {% if post.external_source == blank %}
         {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
       {% else %}
