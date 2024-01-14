@@ -4,16 +4,15 @@ title: About
 permalink: /
 
 profile:
-  align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
 
 greetings: "Warm Welcome 🎉 "
 ---
 
-An ex-SDE @ Amazon. Currently between jobs ... 
+An ex-SDE @ Amazon. Currently a backend engineer @ MaoYan ... 
 
-（一个不算太靠谱的程序员 💻
+（一个不算靠谱的程序员 💻
 
 When I'm available, I do a little bit of cooking 👩🏼‍🍳, some reading 📖, various kind of execises 🏃, a lot of city walks 🚶 ...
 

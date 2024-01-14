@@ -29,7 +29,8 @@ layout: default
           <div class="about-content">
             {{ content }}
 
-            <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
+            <!-- <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}"> -->
+            <div class="profile"></div>
             {%- if page.profile.image %}
               {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
 
