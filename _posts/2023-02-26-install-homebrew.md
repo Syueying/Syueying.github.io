@@ -5,6 +5,7 @@ date: 2023-02-28
 # description: Alternative solution when official command line for installing homebrew failed
 tags: tech terminal macOS
 # coverImage: ../assets/img/2023/02/28/screenshot_lazygit.png
+permlink: /work/
 ---
 
 1. Modify homebrew-related environment variables
