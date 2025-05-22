@@ -18,6 +18,4 @@ When I'm available, I do a little bit of cooking 👩🏼‍🍳, some reading �
 
 （除了正事儿，啥都会尝试一些
 
-Gonna share some ideas from work and life 
-
-（分享工作和生活碎片
+share sth. about everything ✍🏻
