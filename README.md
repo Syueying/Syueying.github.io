@@ -1,2 +1,4 @@
 
-# 💡 GENERARED FROM https://github.com/imfing/hextra-starter-template
+# 💡 Credits
+
+GENERARED FROM https://github.com/imfing/hextra-starter-template

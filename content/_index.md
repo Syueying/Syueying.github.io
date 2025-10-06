@@ -1,14 +1,12 @@
 ---
-title: My Site
+title: Warm Welcome 🎉
 toc: false
 ---
-
-This is the landing page.
 
 ## Explore
 
 {{< cards >}}
-  {{< card link="docs" title="Docs" icon="book-open" >}}
+  {{< card link="moments" title="Moments" icon="book-open" >}}
   {{< card link="about" title="About" icon="user" >}}
 {{< /cards >}}
 
