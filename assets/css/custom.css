@@ -11,5 +11,5 @@ body {
 .img-2-col img {
     width: 50%; /* 每张图片宽度，可调整 */
     height: auto;
-    border-radius: 13px; /* 圆角可选 */
+    border-radius: 5px; /* 圆角可选 */
 }

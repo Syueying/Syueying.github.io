@@ -1,6 +1,5 @@
 ---
 title: Moments
-next: /moments/2024/
+next: /moments/2023/
 ---
 
-This is a demo of the theme's documentation layout.
