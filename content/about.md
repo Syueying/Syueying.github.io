@@ -1,6 +1,7 @@
 ---
 title: About
 type: about
+comments: true
 ---
 
 An ex-SDE @ Amazon. Currently a backend engineer @ MaoYan ... 

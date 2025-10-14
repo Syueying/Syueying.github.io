@@ -41,6 +41,16 @@ menu:
         icon: github
 
 params:
+  comments:
+    enable: true
+    type: giscus
+
+    giscus:
+      repo: Syueying.github.io
+      repoId: R_kgDOP5k3sQ
+      category: Announcements
+      categoryId: DIC_kwDOP5k3sc4Cwhvp 
+
   navbar:
     displayTitle: true
     displayLogo: false
