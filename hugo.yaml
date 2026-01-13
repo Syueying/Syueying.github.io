@@ -21,12 +21,15 @@ menu:
     - name: Docs
       pageRef: /docs
       weight: 1
-    - name: Moments
+    - name: 📒 Moments
       pageRef: /moments
       weight: 2
+    - name: 🌳 Garden
+      pageRef: /garden
+      weight: 3
     - name: About
       pageRef: /about
-      weight: 3
+      weight: 4
     - name: Contact ↗
       url: "https://github.com/Syueying"
       weight: 4

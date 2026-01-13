@@ -2,3 +2,7 @@
 # 💡 Credits
 
 GENERARED FROM https://github.com/imfing/hextra-starter-template
+
+hugo build
+
+hugo serve

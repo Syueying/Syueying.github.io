@@ -13,3 +13,15 @@ body {
     height: auto;
     border-radius: 5px; /* 圆角可选 */
 }
+
+.img-3-col {
+    display: flex;
+    gap: 3px; /* 图片间距，可调整 */
+    justify-content: center; /* 居中可选 */
+}
+
+.img-3-col img {
+    width: 33%; /* 每张图片宽度，可调整 */
+    height: auto;
+    border-radius: 5px; /* 圆角可选 */
+}

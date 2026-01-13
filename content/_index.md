@@ -7,6 +7,7 @@ toc: false
 
 {{< cards >}}
   {{< card link="moments" title="Moments" icon="book-open" >}}
+  {{< card link="garden" title="Garden" icon="sparkles" >}}
   {{< card link="about" title="About" icon="user" >}}
 {{< /cards >}}
 
