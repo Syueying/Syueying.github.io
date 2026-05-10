@@ -49,7 +49,7 @@ params:
     type: giscus
 
     giscus:
-      repo: Syueying.github.io
+      repo: Syueying/Syueying.github.io
       repoId: R_kgDOP5k3sQ
       category: Announcements
       categoryId: DIC_kwDOP5k3sc4Cwhvp 
