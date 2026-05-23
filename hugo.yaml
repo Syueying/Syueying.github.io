@@ -1,6 +1,9 @@
 # Hugo configuration file
 title: Syueying
 
+taxonomies:
+  tag: tags
+
 # import hextra as module
 module:
   imports:
@@ -27,12 +30,15 @@ menu:
     - name: 🌳 Garden
       pageRef: /garden
       weight: 3
+    - name: 📖 Reads
+      pageRef: /reads
+      weight: 4
     - name: About
       pageRef: /about
-      weight: 4
+      weight: 5
     - name: Contact ↗
       url: "https://github.com/Syueying"
-      weight: 4
+      weight: 6
     - name: Search
       weight: 5
       params:
